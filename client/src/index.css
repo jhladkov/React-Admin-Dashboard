@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+html,
+body,
+#root,
+.app{
+    height: 100%;
+    width: 100%;
+    font-family: "Inter", sans-serif;
+}
+
+
+body::-webkit-scrollbar {
+    width: 100%;
+    max-width: 6px;
+}
+
+
+body::-webkit-scrollbar-thumb {
+    background-color: #ffe3a3;
+    border-radius: 20px;
+}
